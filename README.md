@@ -1,3 +1,41 @@
+Welcome to the ReadMe for my first solo web dev project. Leaving all the React & npm stuff below in case I need to reference it.
+
+This is going to be more of a living document for my development phase ideas for this project. Potentially not conventional but I think it will help me refine my ideas- may shift to a Trello board if this idea gets larger.
+
+Development plans:
+
+My plan is to start simple with hard coded data to get a proof-of-concept site up, and then refactor the code as I add more complex functionality. 
+
+Initial goal: 
+-Web uses user-entered zip code to display weather data. The background of the page will conditionally render based on the weather data pulled by the provided zip (sunshine, rainy day, etc.). 
+-Data pulled is hardcoded into the database. Data needed initially: Image assets, cooresponding messages for the user, zip codes, weather forecast that cooresponds to each zip code.
+-When the zip is submitted, the web page will conditionally render a weather-based image and phrase for user. (ex: if the weather is rainy, the image will be of a rainy day, and the message will be something like
+        "Don't forget an umbrella, it's raining most of the day")
+-Intial site is styled for web & mobile.
+
+Improvements to be made:
+-The most important is pivoting off of hard coded data to using a weather API to pull in live data for any zip. Will need to check all weather forecasts and assign an image asset for each to test across global zip codes.
+-From here, I'll want to add functionality to automatically pull the user's location from their IP and give them the forecast on page load, with an option to look up weather at a specific zip code. Alternatively, I can ask them for their location data in browser. 
+        (This is probably the step in most fuzzy on at this time, will do more research once I get the intitial iteration working)
+-Next, replace the image assets with animations of the weather. This will be a more polished look.
+-Styling for all screens (tablet, etc.), and look into making it a PWA. I attended a lecture on PWAs a few years ago so this idea may be out of date. Again, one I know less about going into things, but the idea behind this is making it
+        something I can pull up on the web or have as an app on my phone. I am usually bad at checking the weather so this is a requirement from my favorite stakeholder, myself! 
+    -If I can get it to be a mobile app without too much refactoring, I'd like to add functionality to send a push notification if my local forecast has rain in the forecast (as an example, you could set up notifications for many types of selectable forecasts)
+-Add cheeky dialogues for more weather types. Light vs heavy rain for example, recommending sunscreen for high UV levels, etc.
+
+
+
+
+
+
+*******************************************************************************************************
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
